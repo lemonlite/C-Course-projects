@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Section6" Database="" Version="10000">
+  <Project Name="WhatisVariable" Path="WhatisVariable/WhatisVariable.project" Active="No"/>
+  <Project Name="DeclaringInitializingVariables" Path="DeclaringInitializingVariables/DeclaringInitializingVariables.project" Active="No"/>
+  <Project Name="GlobalandLocalVariables" Path="GlobalVariables/GlobalVariables.project" Active="No"/>
+  <Project Name="PrimitiveTypes" Path="PrimitiveTypes/PrimitiveTypes.project" Active="No"/>
+  <Project Name="SizeofOperator" Path="SizeofOperator/SizeofOperator.project" Active="No"/>
+  <Project Name="Constants" Path="DeclaringConstants/DeclaringConstants.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="WhatisVariable" ConfigName="Debug"/>
+      <Project Name="DeclaringInitializingVariables" ConfigName="Debug"/>
+      <Project Name="GlobalandLocalVariables" ConfigName="Debug"/>
+      <Project Name="PrimitiveTypes" ConfigName="Debug"/>
+      <Project Name="SizeofOperator" ConfigName="Debug"/>
+      <Project Name="Constants" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="WhatisVariable" ConfigName="Release"/>
+      <Project Name="DeclaringInitializingVariables" ConfigName="Release"/>
+      <Project Name="GlobalandLocalVariables" ConfigName="Release"/>
+      <Project Name="PrimitiveTypes" ConfigName="Release"/>
+      <Project Name="SizeofOperator" ConfigName="Release"/>
+      <Project Name="Constants" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
