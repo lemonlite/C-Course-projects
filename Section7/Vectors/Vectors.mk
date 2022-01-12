@@ -5,20 +5,20 @@
 ## Debug
 ProjectName            :=Vectors
 ConfigurationName      :=Debug
-WorkspacePath          :="C:/Users/winprogramming/Desktop/C++ Course projects/Section7"
-ProjectPath            :="C:/Users/winprogramming/Desktop/C++ Course projects/Section7/Vectors"
+WorkspacePath          :=C:/Users/CPLUSPLUS/Desktop/C-Course-projects/Section7
+ProjectPath            :=C:/Users/CPLUSPLUS/Desktop/C-Course-projects/Section7/Vectors
 IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
-User                   :=winprogramming
+User                   :=CPLUSPLUS
 Date                   :=12/01/2022
 CodeLitePath           :="C:/Program Files/CodeLite"
-LinkerName             :=g++
-SharedObjectLinkerName :=g++ -shared -fPIC
+LinkerName             :="C:/Program Files/mingw-w64/mingw64/bin/g++.exe"
+SharedObjectLinkerName :="C:/Program Files/mingw-w64/mingw64/bin/g++.exe" -shared -fPIC
 ObjectSuffix           :=.o
-DependSuffix           :=
+DependSuffix           :=.o.d
 PreprocessSuffix       :=.i
 DebugSwitch            :=-g 
 IncludeSwitch          :=-I
@@ -36,7 +36,7 @@ ObjectsFileList        :="Vectors.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
-RcCompilerName         :=windres
+RcCompilerName         :="C:/Program Files/mingw-w64/mingw64/bin/windres.exe"
 LinkOptions            :=  
 IncludePath            :=  $(IncludeSwitch). $(IncludeSwitch). 
 IncludePCH             := 
@@ -49,13 +49,13 @@ LibPath                := $(LibraryPathSwitch).
 ## Common variables
 ## AR, CXX, CC, AS, CXXFLAGS and CFLAGS can be overriden using an environment variables
 ##
-AR       := ar rcu
-CXX      := g++
-CC       := gcc
+AR       := "C:/Program Files/mingw-w64/mingw64/bin/ar.exe" rcu
+CXX      := "C:/Program Files/mingw-w64/mingw64/bin/g++.exe"
+CC       := "C:/Program Files/mingw-w64/mingw64/bin/gcc.exe"
 CXXFLAGS :=  -g -O0 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
-AS       := as
+AS       := "C:/Program Files/mingw-w64/mingw64/bin/as.exe"
 
 
 ##
@@ -94,10 +94,13 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/winprogramming/Desktop/C++ Course projects/Section7/Vectors/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/CPLUSPLUS/Desktop/C-Course-projects/Section7/Vectors/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
+
+-include $(IntermediateDirectory)/*$(DependSuffix)
 ##
 ## Clean
 ##

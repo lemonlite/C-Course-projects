@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\Users\winprogramming\Desktop\C++ Course projects\Section7\Section7.workspace">
-  <int Value="2" Name="m_selectedTab"/>
-  <wxString Value="C:\Users\winprogramming\Desktop\C++ Course projects\Section7\Section7.workspace" Name="m_workspaceName"/>
+<Session Name="C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\Section7.workspace">
+  <int Value="0" Name="m_selectedTab"/>
+  <wxString Value="C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\Section7.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\winprogramming\Desktop\C++ Course projects\Section7\ArraysExample\main.cpp" Name="FileName"/>
-      <int Value="7" Name="FirstVisibleLine"/>
-      <int Value="29" Name="CurrentLine"/>
+      <wxString Value="C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\Vectors\main.cpp" Name="FileName"/>
+      <int Value="27" Name="FirstVisibleLine"/>
+      <int Value="39" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\winprogramming\Desktop\C++ Course projects\Section7\MultiDimensionalArrays\main.cpp" Name="FileName"/>
-      <int Value="12" Name="FirstVisibleLine"/>
-      <int Value="12" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\winprogramming\Desktop\C++ Course projects\Section7\Vectors\main.cpp" Name="FileName"/>
+      <wxString Value="C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\ArraysExample\main.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="4" Name="CurrentLine"/>
+      <int Value="13" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

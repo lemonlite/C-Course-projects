@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Section7" Database="" Version="10000">
-  <Project Name="ArraysExample" Path="ArraysExample/ArraysExample.project" Active="No"/>
+  <Project Name="ArraysExample" Path="ArraysExample/ArraysExample.project" Active="Yes"/>
   <Project Name="Arraysmoreexamples" Path="Arraysmoreexamples/Arraysmoreexamples.project" Active="No"/>
   <Project Name="MultiDimensionalArrays" Path="MultiDimensionalArrays/MultiDimensionalArrays.project" Active="No"/>
-  <Project Name="Vectors" Path="Vectors/Vectors.project" Active="Yes"/>
+  <Project Name="Vectors" Path="Vectors/Vectors.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>

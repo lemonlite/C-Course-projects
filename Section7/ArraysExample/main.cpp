@@ -20,7 +20,7 @@ int main()
 
 {
     int test_scores [5] {100,95,99,87,88};
-    std::cout << "First score at index 0: " << test_scores [0] << std::endl;   //NOTICED WE STARETD AT 0
+    std::cout << "First score at index 0: " << test_scores [0] << std::endl;   //NOTICED WE STARTED AT 0
     std::cout << "Second score at index 1: " << test_scores [1] << std::endl;
     std::cout << "Third score at index 2: " << test_scores [2] << std::endl;
     std::cout << "Fourth score at index 3: " << test_scores [3] << std::endl;

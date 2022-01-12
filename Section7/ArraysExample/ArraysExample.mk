@@ -5,14 +5,14 @@
 ## Debug
 ProjectName            :=ArraysExample
 ConfigurationName      :=Debug
-WorkspacePath          :="C:/Users/winprogramming/Desktop/C++ Course projects/Section7"
-ProjectPath            :="C:/Users/winprogramming/Desktop/C++ Course projects/Section7/ArraysExample"
+WorkspacePath          :=C:/Users/CPLUSPLUS/Desktop/C-Course-projects/Section7
+ProjectPath            :=C:/Users/CPLUSPLUS/Desktop/C-Course-projects/Section7/ArraysExample
 IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
-User                   :=winprogramming
+User                   :=CPLUSPLUS
 Date                   :=12/01/2022
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :="C:/Program Files/mingw-w64/mingw64/bin/g++.exe"
@@ -95,7 +95,7 @@ PreBuild:
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/winprogramming/Desktop/C++ Course projects/Section7/ArraysExample/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/CPLUSPLUS/Desktop/C-Course-projects/Section7/ArraysExample/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
