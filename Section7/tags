@@ -1,7 +1,13 @@
-main	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\ArraysExample\main.cpp	/^int main() $/;"	function	line:5	signature:()	returns:int 
-test_scores	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\ArraysExample\main.cpp	/^    int test_scores [5] {100,95,99,87,88};$/;"	local	line:22
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\ArraysExample\main.cpp	/^    std::cout << "First score at index 0: " << test_scores [0] << std::endl;   \/\/NOTICED WE STARTED AT 0$/;"	member	line:23	class:std
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\ArraysExample\main.cpp	/^    std::cout << "Second score at index 1: " << test_scores [1] << std::endl;$/;"	member	line:24	class:std
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\ArraysExample\main.cpp	/^    std::cout << "Third score at index 2: " << test_scores [2] << std::endl;$/;"	member	line:25	class:std
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\ArraysExample\main.cpp	/^    std::cout << "Fourth score at index 3: " << test_scores [3] << std::endl;$/;"	member	line:26	class:std
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\ArraysExample\main.cpp	/^    std::cout << "Fifth score at index 4: " << test_scores [4] << std::endl;$/;"	member	line:27	class:std
+cout	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\PracticeVectors\main.cpp	/^using std::cout;$/;"	class	line:6	typeref:class:std::cout
+cin	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\PracticeVectors\main.cpp	/^using std::cin;$/;"	class	line:7	typeref:class:std::cin
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\PracticeVectors\main.cpp	/^using std::endl;$/;"	class	line:8	typeref:class:std::endl
+vector	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\PracticeVectors\main.cpp	/^using std::vector;$/;"	class	line:9	typeref:class:std::vector
+main	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\PracticeVectors\main.cpp	/^int main()$/;"	function	line:11	signature:()	returns:int 
+vector1	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\PracticeVectors\main.cpp	/^    vector <int> vector1;$/;"	local	line:15	type:vector
+vector2	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\PracticeVectors\main.cpp	/^    vector <int> vector2;$/;"	local	line:16	type:vector
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\PracticeVectors\main.cpp	/^    cout <<"\\nvector1:" << endl;$/;"	local	line:25	type:cout
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\PracticeVectors\main.cpp	/^    cout <<"\\nvector2:" << endl;$/;"	local	line:39	type:cout
+vector_2d	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\PracticeVectors\main.cpp	/^    vector <vector<int>> vector_2d;$/;"	local	line:47	type:vector
+push_back	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\PracticeVectors\main.cpp	/^    vector_2d.push_back(vector1);$/;"	prototype	line:52	signature:(vector1)	returns:vector_2d 
+push_back	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\PracticeVectors\main.cpp	/^    vector_2d.push_back(vector2);$/;"	prototype	line:53	signature:(vector2)	returns:vector_2d 
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section7\PracticeVectors\main.cpp	/^    cout <<"\\nvector_2d: " << endl;$/;"	local	line:57	type:cout

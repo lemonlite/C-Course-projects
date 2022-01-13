@@ -2,6 +2,7 @@
 
 #include <iostream>
 
+
 int main() 
 /* {
     int test_score [5] {100,85,70,75,90};    //the "int" is the element type test_cores is the array its the same as a variable programmers name it
