@@ -1,0 +1,9 @@
+cout	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^    using std::cout;$/;"	class	line:3	typeref:class:std::cout
+cin	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^    using std::cin;$/;"	class	line:4	typeref:class:std::cin
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^    using std::endl;$/;"	class	line:5	typeref:class:std::endl
+main	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^int main()$/;"	function	line:7	signature:()	returns:int 
+num1	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^    int num1 {10};          \/\/num1 and num2 are initialized$/;"	local	line:9
+num2	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^    int num2 {20};$/;"	local	line:10
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^    cout <<"num1 is " << num1 << endl;$/;"	local	line:14	type:coutnum1
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^    cout <<"num2 is " << num2 << endl;$/;"	local	line:15	type:coutnum2
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^    cout << endl;$/;"	local	line:16	type:cout

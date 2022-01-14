@@ -1,10 +1,7 @@
-cout	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^    using std::cout;$/;"	class	line:3	typeref:class:std::cout
-cin	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^    using std::cin;$/;"	class	line:4	typeref:class:std::cin
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^    using std::endl;$/;"	class	line:5	typeref:class:std::endl
-main	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^int main()$/;"	function	line:7	signature:()	returns:int 
-x	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^    int x, y;$/;"	local	line:10
-y	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^    int x, y;$/;"	local	line:10
-sum	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^    int sum;$/;"	local	line:11
-x	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^    cin >> x;$/;"	local	line:14	type:cin
-y	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^    cin >> y;$/;"	local	line:16	type:cin
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp	/^    cout << "Total = " << sum << endl;$/;"	local	line:18	type:coutsum
+cout	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\ArithmeticOperators\main.cpp	/^using std::cout;$/;"	class	line:13	typeref:class:std::cout
+cin	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\ArithmeticOperators\main.cpp	/^using std::cin;$/;"	class	line:14	typeref:class:std::cin
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\ArithmeticOperators\main.cpp	/^using std::endl;$/;"	class	line:15	typeref:class:std::endl
+main	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\ArithmeticOperators\main.cpp	/^int main()$/;"	function	line:17	signature:()	returns:int 
+num1	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\ArithmeticOperators\main.cpp	/^    int num1 {200};$/;"	local	line:19
+num2	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\ArithmeticOperators\main.cpp	/^    int num2 {100};$/;"	local	line:20
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\ArithmeticOperators\main.cpp	/^    cout << num1 << " + " << num2 <<" = " << num1 + num2 << endl;$/;"	local	line:22	type:coutnum1num2num1num2
