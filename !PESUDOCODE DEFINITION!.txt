@@ -1,0 +1,35 @@
+definition/ its an idea from a human language and then translated into programming
+
+"take out a 1 from the memory   this is the idea the task on mind
+then add 1 and give a total"
+
+
+then translated to a programming language which is c++ as chosen language below
+
+#include <iostream>
+
+    using std::cout;
+    using std::cin;
+    using std::endl;
+
+int main()
+{
+
+    int x, y;
+    int sum;
+                                            // variables are declared as y and x but an be anything made up by a human
+    cout <<"Type a number: ";  
+    cin >> x;
+    cout <<"Type another number:";
+    cin >> y;
+    sum = x+y;
+    cout << "Total = " << sum << endl;
+
+return 0;
+
+} 
+
+THIS IS THE RESULT. 2
+
+
+
