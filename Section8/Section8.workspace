@@ -3,7 +3,8 @@
   <Project Name="ExpressionStatementssamples" Path="ExpressionStatementssamples/ExpressionStatementssamples.project" Active="No"/>
   <Project Name="AssignmentOperator" Path="Operators/Operators.project" Active="No"/>
   <Project Name="ArithmeticOperators" Path="ArithmeticOperators/ArithmeticOperators.project" Active="No"/>
-  <Project Name="EurostoUSD" Path="EurostoUSD/EurostoUSD.project" Active="Yes"/>
+  <Project Name="EurostoUSD" Path="EurostoUSD/EurostoUSD.project" Active="No"/>
+  <Project Name="IncrementDecrementOperators" Path="IncrementDecrementOperators/IncrementDecrementOperators.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="AssignmentOperator" ConfigName="Debug"/>
       <Project Name="ArithmeticOperators" ConfigName="Debug"/>
       <Project Name="EurostoUSD" ConfigName="Debug"/>
+      <Project Name="IncrementDecrementOperators" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="AssignmentOperator" ConfigName="Release"/>
       <Project Name="ArithmeticOperators" ConfigName="Release"/>
       <Project Name="EurostoUSD" ConfigName="Release"/>
+      <Project Name="IncrementDecrementOperators" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

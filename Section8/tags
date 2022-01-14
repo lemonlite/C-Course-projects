@@ -1,12 +1,10 @@
-cout	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^using std::cout;$/;"	class	line:7	typeref:class:std::cout
-cin	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^using std::cin;$/;"	class	line:8	typeref:class:std::cin
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^using std::endl;$/;"	class	line:9	typeref:class:std::endl
-main	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^int main()$/;"	function	line:11	signature:()	returns:int 
-usd_per_euro	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^   const double usd_per_euro {1.14};     $/;"	local	line:13
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^    cout <<"Euro to USD converter software" << endl;$/;"	local	line:15	type:cout
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^    cout <<"--------------------------------" << endl;$/;"	local	line:16	type:cout
-euros	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^    double euros {0.0};$/;"	local	line:19
-dollars	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^    double dollars {0.0};$/;"	local	line:20
-euros	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^    cin >> euros;$/;"	local	line:22	type:cin
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^    cout << euros <<" euros is equivalent to $ " << dollars << endl; $/;"	local	line:25	type:couteurosdollars
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^    cout << endl;$/;"	local	line:28	type:cout
+cout	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^using std::cout;$/;"	class	line:16	typeref:class:std::cout
+cin	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^using std::cin;$/;"	class	line:17	typeref:class:std::cin
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^using std::endl;$/;"	class	line:18	typeref:class:std::endl
+main	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^int main()$/;"	function	line:20	signature:()	returns:int 
+counter	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^    int counter {10};$/;"	local	line:22
+result	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^    int result {0};$/;"	local	line:23
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^  cout <<"Counter: " << counter << endl; $/;"	local	line:77	type:coutcounter
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^  cout <<"Counter: " << counter << endl; \/\/20$/;"	local	line:81	type:coutcounter
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^  cout <<"Result: " << result << endl; \/\/11   $/;"	local	line:82	type:coutresult
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^    cout <<  endl;$/;"	local	line:85	type:cout
