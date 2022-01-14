@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="Section8" Database="" Version="10000">
   <Project Name="ExpressionStatementssamples" Path="ExpressionStatementssamples/ExpressionStatementssamples.project" Active="No"/>
   <Project Name="AssignmentOperator" Path="Operators/Operators.project" Active="No"/>
-  <Project Name="ArithmeticOperators" Path="ArithmeticOperators/ArithmeticOperators.project" Active="Yes"/>
+  <Project Name="ArithmeticOperators" Path="ArithmeticOperators/ArithmeticOperators.project" Active="No"/>
+  <Project Name="EurostoUSD" Path="EurostoUSD/EurostoUSD.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="ExpressionStatementssamples" ConfigName="Debug"/>
       <Project Name="AssignmentOperator" ConfigName="Debug"/>
       <Project Name="ArithmeticOperators" ConfigName="Debug"/>
+      <Project Name="EurostoUSD" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="ExpressionStatementssamples" ConfigName="Release"/>
       <Project Name="AssignmentOperator" ConfigName="Release"/>
       <Project Name="ArithmeticOperators" ConfigName="Release"/>
+      <Project Name="EurostoUSD" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

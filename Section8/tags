@@ -1,7 +1,12 @@
-cout	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\ArithmeticOperators\main.cpp	/^using std::cout;$/;"	class	line:13	typeref:class:std::cout
-cin	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\ArithmeticOperators\main.cpp	/^using std::cin;$/;"	class	line:14	typeref:class:std::cin
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\ArithmeticOperators\main.cpp	/^using std::endl;$/;"	class	line:15	typeref:class:std::endl
-main	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\ArithmeticOperators\main.cpp	/^int main()$/;"	function	line:17	signature:()	returns:int 
-num1	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\ArithmeticOperators\main.cpp	/^    int num1 {200};$/;"	local	line:19
-num2	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\ArithmeticOperators\main.cpp	/^    int num2 {100};$/;"	local	line:20
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\ArithmeticOperators\main.cpp	/^    cout << num1 << " + " << num2 <<" = " << num1 + num2 << endl;$/;"	local	line:22	type:coutnum1num2num1num2
+cout	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^using std::cout;$/;"	class	line:7	typeref:class:std::cout
+cin	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^using std::cin;$/;"	class	line:8	typeref:class:std::cin
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^using std::endl;$/;"	class	line:9	typeref:class:std::endl
+main	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^int main()$/;"	function	line:11	signature:()	returns:int 
+usd_per_euro	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^   const double usd_per_euro {1.14};     $/;"	local	line:13
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^    cout <<"Euro to USD converter software" << endl;$/;"	local	line:15	type:cout
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^    cout <<"--------------------------------" << endl;$/;"	local	line:16	type:cout
+euros	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^    double euros {0.0};$/;"	local	line:19
+dollars	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^    double dollars {0.0};$/;"	local	line:20
+euros	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^    cin >> euros;$/;"	local	line:22	type:cin
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^    cout << euros <<" euros is equivalent to $ " << dollars << endl; $/;"	local	line:25	type:couteurosdollars
+endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp	/^    cout << endl;$/;"	local	line:28	type:cout
