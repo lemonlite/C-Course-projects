@@ -1,10 +1,1 @@
-cout	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^using std::cout;$/;"	class	line:16	typeref:class:std::cout
-cin	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^using std::cin;$/;"	class	line:17	typeref:class:std::cin
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^using std::endl;$/;"	class	line:18	typeref:class:std::endl
-main	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^int main()$/;"	function	line:20	signature:()	returns:int 
-counter	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^    int counter {10};$/;"	local	line:22
-result	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^    int result {0};$/;"	local	line:23
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^  cout <<"Counter: " << counter << endl; $/;"	local	line:77	type:coutcounter
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^  cout <<"Counter: " << counter << endl; \/\/20$/;"	local	line:81	type:coutcounter
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^  cout <<"Result: " << result << endl; \/\/11   $/;"	local	line:82	type:coutresult
-endl	C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp	/^    cout <<  endl;$/;"	local	line:85	type:cout
+main	C:\Users\tether56\Desktop\C++ programming\GITHUB\C-Course-projects\Section8\LogicalOperators\main.cpp	/^int main(int argc, char **argv)$/;"	function	line:3	signature:(int argc, char **argv)	returns:int 

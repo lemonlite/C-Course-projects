@@ -4,23 +4,35 @@
   <Project Name="AssignmentOperator" Path="Operators/Operators.project" Active="No"/>
   <Project Name="ArithmeticOperators" Path="ArithmeticOperators/ArithmeticOperators.project" Active="No"/>
   <Project Name="EurostoUSD" Path="EurostoUSD/EurostoUSD.project" Active="No"/>
-  <Project Name="IncrementDecrementOperators" Path="IncrementDecrementOperators/IncrementDecrementOperators.project" Active="Yes"/>
+  <Project Name="IncrementDecrementOperators" Path="IncrementDecrementOperators/IncrementDecrementOperators.project" Active="No"/>
+  <Project Name="MixedExpressions" Path="MixedExpressions/MixedExpressions.project" Active="No"/>
+  <Project Name="TestingforEquality" Path="TestingforEquality/TestingforEquality.project" Active="No"/>
+  <Project Name="RelationalOperators" Path="RelationalOperators/RelationalOperators.project" Active="No"/>
+  <Project Name="LogicalOperators" Path="LogicalOperators/LogicalOperators.project" Active="Yes"/>
   <BuildMatrix>
-    <WorkspaceConfiguration Name="Debug">
+    <WorkspaceConfiguration Name="Debug" Selected="no">
       <Environment/>
       <Project Name="ExpressionStatementssamples" ConfigName="Debug"/>
       <Project Name="AssignmentOperator" ConfigName="Debug"/>
       <Project Name="ArithmeticOperators" ConfigName="Debug"/>
       <Project Name="EurostoUSD" ConfigName="Debug"/>
       <Project Name="IncrementDecrementOperators" ConfigName="Debug"/>
+      <Project Name="MixedExpressions" ConfigName="Debug"/>
+      <Project Name="TestingforEquality" ConfigName="Debug"/>
+      <Project Name="RelationalOperators" ConfigName="Debug"/>
+      <Project Name="LogicalOperators" ConfigName="Debug"/>
     </WorkspaceConfiguration>
-    <WorkspaceConfiguration Name="Release">
+    <WorkspaceConfiguration Name="Release" Selected="no">
       <Environment/>
       <Project Name="ExpressionStatementssamples" ConfigName="Release"/>
       <Project Name="AssignmentOperator" ConfigName="Release"/>
       <Project Name="ArithmeticOperators" ConfigName="Release"/>
       <Project Name="EurostoUSD" ConfigName="Release"/>
       <Project Name="IncrementDecrementOperators" ConfigName="Release"/>
+      <Project Name="MixedExpressions" ConfigName="Release"/>
+      <Project Name="TestingforEquality" ConfigName="Release"/>
+      <Project Name="RelationalOperators" ConfigName="Release"/>
+      <Project Name="LogicalOperators" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

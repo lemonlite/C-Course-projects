@@ -71,7 +71,7 @@ int main()
 
 
 //  Example 5
-  counter = 10;
+  counter = 10; 
   result = 0;
 
   cout <<"Counter: " << counter << endl; 
@@ -82,6 +82,6 @@ int main()
   cout <<"Result: " << result << endl; //11   
     
         
-    cout <<  endl;
+    cout <<  endl; 
     return 0;
 }

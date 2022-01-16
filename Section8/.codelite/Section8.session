@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Section8.workspace">
-  <int Value="3" Name="m_selectedTab"/>
-  <wxString Value="C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Section8.workspace" Name="m_workspaceName"/>
+<Session Name="C:\Users\tether56\Desktop\C++ programming\GITHUB\C-Course-projects\Section8\Section8.workspace">
+  <int Value="1" Name="m_selectedTab"/>
+  <wxString Value="C:\Users\tether56\Desktop\C++ programming\GITHUB\C-Course-projects\Section8\Section8.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\ArithmeticOperators\main.cpp" Name="FileName"/>
-      <int Value="16" Name="FirstVisibleLine"/>
-      <int Value="43" Name="CurrentLine"/>
+      <wxString Value="C:\Users\tether56\Desktop\C++ programming\GITHUB\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp" Name="FileName"/>
+      <int Value="15" Name="FirstVisibleLine"/>
+      <int Value="34" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\EurostoUSD\main.cpp" Name="FileName"/>
-      <int Value="23" Name="FirstVisibleLine"/>
-      <int Value="26" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\Operators\main.cpp" Name="FileName"/>
-      <int Value="6" Name="FirstVisibleLine"/>
-      <int Value="9" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\CPLUSPLUS\Desktop\C-Course-projects\Section8\IncrementDecrementOperators\main.cpp" Name="FileName"/>
-      <int Value="57" Name="FirstVisibleLine"/>
-      <int Value="81" Name="CurrentLine"/>
+      <wxString Value="C:\Users\tether56\Desktop\C++ programming\GITHUB\C-Course-projects\Section8\EurostoUSD\main.cpp" Name="FileName"/>
+      <int Value="2" Name="FirstVisibleLine"/>
+      <int Value="23" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
