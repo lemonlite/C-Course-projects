@@ -1,0 +1,4 @@
+Controlling program flow
+Sequence - Ordering statements sequentially 
+Selection - making decisions  if,if-else, switch
+Iteration - Looping or repeating   for,while,do-while   loops infinite loops nested loops   continue,break 
