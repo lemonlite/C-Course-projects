@@ -11,7 +11,7 @@ int main() //int and return this are c++ keywords
 {
     int favorite_number;   //this is a identifyer not a keyword
     
-    std::cout << "Enter your favorit number between 1 - 100:" ;   /* << chevrons are called stream operator meaning inserting
+    std::cout << "Enter your favorit number between 1 - 100:" ;   /* << chevrons are called  output stream operator meaning inserting
 whatever on the right hand side of it this is a output stream */ 
     
     std::cin >> favorite_number;  // >> greater than chevron is a string extractor it takes from the console and store tha variable 
