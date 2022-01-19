@@ -5,8 +5,7 @@
 using std::cout;
 using std::cin;
 using std::endl;
-using std::boolalpha;
-using std::noboolalpha;
+
 
 int main()
 {
