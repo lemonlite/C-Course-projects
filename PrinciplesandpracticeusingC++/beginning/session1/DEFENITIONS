@@ -1,0 +1,9 @@
+
+int number = 39;                         //int for integers
+char letter='.''                        //enclosed with single quotes
+int count;                              // >> reads an integer into count
+cin >> count;                           // >> reads and integer into count
+string name;                            // declares "name" as string
+cin >> name;                            // >> reads a string into "name" 
+int c2 = count+2;                       // + adds integers - subtracts integers
+string s2 = name + "Jr.";               // + appends characters -  error arithemtic doesnt work in strings or char      
