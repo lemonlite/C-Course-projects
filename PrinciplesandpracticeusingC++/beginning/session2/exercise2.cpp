@@ -101,6 +101,9 @@ int main()
     //     cout << i <<'\t' << (i) << "\n";    // \t means tab and "(i)" provides the variable "i" a square root. sqrt()
     // }                                        //this shit loops forever
 
+    //  for (int num =0; num < 5; num++)     //NOTE this one is the simplest example we loop the variable "num" 5 times as "hello world"
+    //    cout <<" hello world\n";
+
 ///// Functions - a named sequence of statements/ A function can return result "return value"
 
 
