@@ -11,8 +11,10 @@ using std::endl;
 using std::string;
 using std::vector;
 
-int main()
-{ ///Write a  simple calculator four basic math operations "+,*,-,/"
+
+void calculator()
+{
+    ///Write a  simple calculator four basic math operations "+,*,-,/"
 
         cout <<" please enter the numbers u want to add,subtract,multiply,divide : ";
         double num1 = 0;
@@ -30,17 +32,21 @@ int main()
          cout <<" the sum of "<< num1 <<" - "<< num2 <<" is "<< num1 - num2 <<"\n";
          else 
          cout <<" invalid operation please try again. \n";
-            return false;
+        
         }
 
 
-    
+}
 
 
 
+int main()
+{ 
+    while (true)        //while loop is hardcoded to true this will loop until user is satisfied with using the simple calculator; ctrl+c to close 
+    {
 
-
-
+        calculator();
+    }
 
     cout << endl;
     return 0;
