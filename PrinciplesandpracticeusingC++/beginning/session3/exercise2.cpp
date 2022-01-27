@@ -18,6 +18,6 @@ using std::endl;
 
 void exercise1()
 {
-
+    
     
 }
