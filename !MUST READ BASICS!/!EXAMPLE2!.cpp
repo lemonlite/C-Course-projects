@@ -10,13 +10,14 @@ using std::endl;
 using std::string;
 
 
-
+                    //NOTE IT IS advisable to set your function to do only one thing it makes it easier and more readable and easier to name.
 using std::cout;
 using std::cin;
 using std::endl;
 
 
-void exercise1()        //this function is where we test random things we come up with
+
+void exercise1()        //this function is where we test random things we come up with also the () is  the scope of this function.
 {
     int example = (5 + 5) * 2;        //in programming PEMDAS wors too
     int result = example;
@@ -40,20 +41,22 @@ void excercise2()   // we will trun on the lights if the current time is after s
         }
         cin >> sunset;
             if (sunset == 'y')
+        {
             cout <<" Turning on the lights......\n";
-            else if (' ')
-            {
-                cout <<" Try again later";
-            }
-        
+        }
+        else
+        {
+            cout <<" ERROR try again.";
+        }
 
+          
 }
 
 
 int main()  // every c++ have at least 1 main fucntion this is where the codes gets read and executed.
 {
-   
 
+    excercise2();
 
 
     return 0;

@@ -19,6 +19,9 @@ void PrintIntroduction(int Difficulty)  //"Parsing argument"       //This is a f
     cout << " secure server room...\nEnter the correct code to continue:\n\n ";
 
 }
+
+//INDENTATION space 
+
 bool PlayGame(int Difficulty) // Playgame passed it on difficulty which is connected to PrintIntroduction above           //data type "bool" this must return a boolean value of true or false or you will get an error in the main value "must return a value"
 {               
 
@@ -49,11 +52,11 @@ bool PlayGame(int Difficulty) // Playgame passed it on difficulty which is conne
     int GuessProduct = GuessA * GuessB * GuessC;
 
     if (GuessSum == Codesum && GuessProduct == Codeproduct)
-    {
+    {       //NOTE this is a minor code block make sure use indentation indentation is number of spaces
         cout << "\n well done you move on to the next level.";
         return true;                                                //NOTE when a function is declared "bool" inside it with every thing with an conditional value must "return a true; or false;"
     }
-    else
+    else                                                //NOTICE else closes this argument then resets back if both conditionals are false.
     {
         cout << " wrong code try again.";
         return false;
@@ -82,7 +85,9 @@ int main()                                                        //since main i
             ++LevelDifficulty;
         }
         
-
+        
+        
+                                    //NOTE the spaces are indentation 4 spaces is recommended NOTICE the line from top bracket to bottom and nothing is touching it its inteded to track a code block where all expressions and statements are.
     }
    
     cout << "\n You have completed all the levels congratulations."; // after completing the 4 levels set by you. winning
