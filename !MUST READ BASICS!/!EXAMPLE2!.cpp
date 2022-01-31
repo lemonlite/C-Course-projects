@@ -30,10 +30,21 @@ void exercise5()        //Iteration statement: it is when we want to repeat some
     //     {
     //    cout <<" you are young and short.";
     //     }
-    // //if ();                                   //for more complex logic u can have a nested "if()"
-    // else                                      // the "else" ends the logic compound or block if none of the statements OR,AND  or any other conditions set by a programmer are met. it can also have an argument else(argument);
-    // cout <<" no valid input try again.";
+    //                                   //for more complex logic u can have a nested "if()"
+    // else 
+    // {
+    //     // if (argument)        //this is a nested if statement. it can be withing a else block statement "{}" or in an existing if block
+    //     // {
+    //     //     "statements"
+    //     // }
+    //                                           // the "else" ends the logic compound or block if none of the statements OR,AND  or any other conditions set by a programmer are met. it can also have an argument else(argument);
+    //     cout <<" no valid input try again.";
+    // }
+    // if (ARGUMENT)
+    // {
+    //     //STATEMENTS ETCC...
 
+    // }
 
 
  /// SWITCH statements  
