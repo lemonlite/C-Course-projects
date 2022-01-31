@@ -28,7 +28,7 @@ int main()
         }
         else if (g == 'f')
         cout <<"If you see " << friend_name <<" Please ask her to call me.\n"; 
-        else if (g > 'm' )
+        else;
         cout <<" invalid try again. ";
     }
 
