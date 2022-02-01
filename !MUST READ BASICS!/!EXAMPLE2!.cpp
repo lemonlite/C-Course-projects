@@ -13,7 +13,7 @@ using std::vector;
 
                                          //NOTE IT IS advisable to set your function to do only one thing it makes it easier and more readable and easier to name.
 
-void exercise5()        //Iteration statement: it is when we want to repeat something several times also reffered as loops and conditional compounds
+void exercise5()        //Iteration statement: it is when we want to repeat something several times also reffered as loops and conditional compounds subcjet to loop terminations
 {
 
     // cout <<" please enter age and height: ";        //example of basic && || examples in condition logic
@@ -70,10 +70,45 @@ void exercise5()        //Iteration statement: it is when we want to repeat some
 
 
 
- ///ITERATION "for()"   this loop is when we know how many times we want to loop like days in a week etc.. it is better use than a while loop because it can be in one statement for(argument);
+ ///ITERATION "for()"   this loop is when we know how many times we want to loop like days in a week etc.. it is better use than a while loop because it can be in one statement for(argument); and is good for iterating a fixed number of loop
 
 
+    // int a = 1;
+    // int b = 3;
+    // int c = a + b;
 
+    // for (int num1 = c; num1 <= 10; num1++)       //it will increment num1 from 0 to 10 we declare num1 as an integer then itirated assigned as 0 next we continue to to increment num1 until it reaches 10 as we set as long as its <  10
+    // {                                            //in summary the for(argument) contained 3 statements or expressions
+    //     {
+    //         cout << num1;                       //why does it end in 9? because whole number remember int starts at 0,1,2,3,4,5,6,7,8,9 it counts the first step at "0" it is only included if <= less than or equal to are used
+    //     }
+        
+    // }
+
+/// NESTED for loop example
+
+    // for (int day = 0; day <=7; day++)       //in a week we have 7 days
+    // {   
+    //     for ( int hour = 0; hour <=24; hour++)  // a day has 24hrs "nested for loop"
+
+    //      {
+    //          cout <<" day " << day << " hour " << hour << "\n";     //at each day starting at 0 it will loop the hour until it hits 24 and until the day 7 is reached then the loop will stop
+    //      }   
+    // }                       //NOTE that it is all in a single block because it is a nested loop 
+
+ /// while loop are good for loops that has no set limit meaning the loop limit is undefined ex. a game where a player will lose and try again and we don't know how many times before he gives up
+    // or if a condition is met. "if and else" boolean true or false
+
+        // int a = 1;
+        // int b = 4;
+        // int c = a + b;                      //NOTE that it is longer than a for loop the statements are seperated and not in one argument
+        // while ( c < 10)             
+        // {
+        //     cout << c <<"\n";               //basicaly this will loop forever until a condition is met. of course with an input because it is a boolean
+        //     c++;                    
+        // }
+        
+        
 
 
         
