@@ -7,14 +7,14 @@
     if package volume is greater than 500 cubic inches there is 25% surcharge
     */
 
-#include <iostream>
+// #include <iostream>
 
-using std::cout;
-using std::cin;
-using std::endl;
+// using std::cout;
+// using std::cin;
+// using std::endl;
 
-int main()
-{
+// int main()
+// {
 //     cout <<" ===============================================\n";
 //     cout <<" Welcome to shipping calculator\n";
 //     cout <<" ===============================================\n";
@@ -33,30 +33,36 @@ int main()
 
 // //All dimension must be 10 inch or less
 
-// int package_volume{};
+// // int package_volume{};
 
-// cout <<" Enter lenght, width and height of the package: ";
-// cin >> length >> width >> height;
-//     if ( length > max_dimension_length || width > max_dimension_length || height > max_dimension_length)
-//     cout <<" Max dimension exceeded try again.\n";
-//     else
-//     {
-//         double package_cost {};
-//         package_volume = length * width * height;
-//         package_cost = base_cost;
+// // cout <<" Enter lenght, width and height of the package: ";
+// // cin >> length >> width >> height;
+// //     if ( length > max_dimension_length || width > max_dimension_length || height > max_dimension_length)
+// //     {
+// //     cout <<" Max dimension exceeded try again.\n";
+// //     }
+// //     else
+// //     {
+// //         double package_cost {};
+// //         package_volume = length * width * height;
+// //         package_cost = base_cost;
     
-//     if (package_volume > tier2_threshold)
-//        package_cost += package_cost * tier2_surcharge;
-//        cout <<" adding tier 2 surcharge\n";
-//     // else if (package_volume > tier1_threshold)
-//     //        package_cost += package_cost * tier1_surcharge;
-//     //        cout <<" adding tier 1 surcharge\n";
-//      }   
-
-
+// //     if (package_volume > tier2_threshold)
+// //        package_cost += package_cost * tier2_surcharge;
+// //        cout <<" adding tier 2 surcharge\n";
     
     
-    cout << endl;
-    return 0;
+// //     if (package_volume > tier1_threshold)
+// //      {
+// //         package_cost += package_cost * tier1_surcharge;
+// //         cout <<" adding tier 1 surcharge\n";
+// //      } 
 
-}
+// //         cout <<" The volume of your package is: " << package_volume <<"\n";
+// //         cout <<" Your package will cost $" << package_cost <<" to ship " <<"\n";
+
+    
+// //     cout << endl;
+// //     return 0;
+ 
+// }  
