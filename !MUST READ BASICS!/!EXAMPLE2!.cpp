@@ -168,26 +168,26 @@ void exercise1()        //this function is where we test random things we come u
 
 void excercise2()       // we will trun on the lights if the current time is after sunset base if else-if
 {       
-        char signal = ' ';
-        char sunset = ' ';            
-        cout <<" Is the phone signal within range?: ";
-        cin >> signal;
-        if (signal == 'y')
-            cout <<" Is it after sunset:?";
+        // char signal = ' ';
+        // char sunset = ' ';            
+        // cout <<" Is the phone signal within range?: ";
+        // cin >> signal;
+        // if (signal == 'y')
+        //     cout <<" Is it after sunset:?";
         
-        else if (signal == 'n')
-        {
-            cout <<" Try again later.\n";
-        }
-        cin >> sunset;                      //selection this will initiate if the previous condition is met
-            if (sunset == 'y')
-        {
-            cout <<" Turning on the lights......\n";
-        }
-        else
-        {
-            cout <<" ERROR try again.";
-        }
+        // else if (signal == 'n')
+        // {
+        //     cout <<" Try again later.\n";
+        // }
+        // cin >> sunset;                      //selection this will initiate if the previous condition is met
+        //     if (sunset == 'y')
+        // {
+        //     cout <<" Turning on the lights......\n";
+        // }
+        // else
+        // {
+        //     cout <<" ERROR try again.";
+        // }
 
           
 }
