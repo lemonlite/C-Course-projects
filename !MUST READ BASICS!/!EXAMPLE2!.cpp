@@ -131,11 +131,11 @@ void exercise4()        //Just like integers in programming heavy use of letters
 
 void exercise3()        //example of basic fixed array 
 {
-    // int num1 [5];       // declared a array variable named "num1" and reserved, indexed it with "[5]" slots of memory for an integer NOTE u can't change this dynamically if u check the limit it will pull a random number in memory
-    // num1 [2] = 4;       //num1 memory location [2] is assigned a number 4 NOTE memory location is "3" because whole numbers starts at 0,1,'2',3 so we move forward from 0 to 1,2,3 thats "4" steps
-    // num1 [3] = 5;       //reserved slot [3] but actually 4
-    // num1 [7] = 6;       //NOTE this "7" is out of the assigned memory hence it will give us an error.
-    // int results = num1[2] + num1[3]; //added the 2 assigned slots to result. NOTE THAT IT IS THE SAME VARIABLE 
+    // int num1 [5];                        // declared a array variable named "num1" and reserved, indexed it with "[5]" slots of memory for an integer NOTE u can't change this dynamically if u check the limit it will pull a random number in memory
+    // num1 [2] = 4;                        //num1 memory location [2] is assigned a number 4 NOTE memory location is "3" because whole numbers starts at 0,1,'2',3 so we move forward from 0 to 1,2,3 thats "4" steps
+    // num1 [3] = 5;                        //reserved slot [3] but actually 4
+    // num1 [7] = 6;                        //NOTE this "7" is out of the assigned memory hence it will give us an error.
+    // int results = num1[2] + num1[3];     //added the 2 assigned slots to result. NOTE THAT IT IS THE SAME VARIABLE 
 
     // cout <<" This fixed array total is, " << results <<"\n"; // 4+5 is 9
 

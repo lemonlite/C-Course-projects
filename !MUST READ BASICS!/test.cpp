@@ -8,6 +8,7 @@ using std::endl;
 using std::string;
 
 
+
 void Addition()
 {
 
@@ -20,27 +21,24 @@ void Addition()
 
 void Sample1()
 {
+ ////A function
+    //     cout <<" this is a function";
+    //     return;
 
-    cout <<" this is a function";
-    return;
+
+ ////  How string gets stored in an array
+    string Sarray = "creme";    //here the variable sarray is declared as string and assigned "creme" as the string of word now each letter is stored in memory locatio starting from index [0] as always
+                                //point your mouse on "creme" and its current assigne index is [6] and also declared as const char its because string is just a sries of char, letters and per char is 1 byte in memory which is 8 bits
+    cout << Sarray[2] <<"\n";   //here we extrated the "e" which is stored n index memory [2].
+
+ 
 }
 
 
 int main()
 {
-
-    cout <<" Are you adding numbers? (y / n): ";
-    char decision = ' ';
-    cin >> decision;
-    if ( decision == 'y')                   
-    {
-        Addition();                //this calls the function that only does addition ONLY
-    }
-    else
-    {
-        cout <<" thank you for using the addtion system.";
-    }
-
+    Sample1();
+    
 
     
     return 0;
