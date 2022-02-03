@@ -7,6 +7,8 @@ using std::cin;
 using std::endl;
 
 
+
+
 int main()
 {
     int num {};         //this are global variables so it will be read inside the local {} variables the scope gets bigger 
