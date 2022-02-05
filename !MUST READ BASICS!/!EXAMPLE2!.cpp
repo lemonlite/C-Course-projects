@@ -142,18 +142,24 @@ void exercise3()        //example of basic fixed array
 
 
 
-//// basic extracting data using fixed array 2 persons set person1,2 fname,lname,address
+//// basic extracting data using fixed array using string 2 persons set person1,2 fname,lname,address
 
-    // string person1 [2];
-    // person1 [0] =" First name: jack\n";
-    // person1 [1] =" Last name: smith\n";
-    // person1 [2] =" Address: 12345 helms st. los angeles ca 8422-87634\n";
-    // string person2 [2];
-    // person2 [0] =" First name: anna\n";
-    // person2 [1] =" Last name: smith\n";
-    // person2 [2] =" Address: 4453 grand ave. los angelese ca 9354-79952\n";
+    string person1 [4];                     //previuos set to [2] and came across "segement fault" limit checking it is fixed by assigning index set to 4 to give more memory space. that is an "exception error" we used an index larger than the set index
+    person1 [0] =" First name: jack\n";     // for logical errors use debug to at least detect it NOT all can be detected as its human error
+    person1 [1] =" Last name: smith\n";
+    person1 [2] =" Address: 12345 helms st. los angeles ca 8422-87634\n";
+    string person2 [4];
+    person2 [0] =" First name: anna\n";
+    person2 [1] =" Last name: smith\n";
+    person2 [2] =" Address: 4453 grand ave. los angelese ca 9354-79952\n";
 
-    //  cout << person1;
+     cout << person2[0] << person2[1] << person2[2] << "\n";            //this output will extract the strings that are stored in memory location "index" locations.
+
+
+      string Sarray = "creme";    //here the variable sarray is declared as string and assigned "creme" as the string of word now each letter is stored in memory locatio starting from index [0] as always
+                                //point your mouse on "creme" and its current assigne index is [6] and also declared as const char its because string is just a sries of char, letters and per char is 1 byte in memory which is 8 bits
+    cout << Sarray[2] <<"\n";   //here we extrated the "e" which is stored n index memory [2].
+
 
 }
 
@@ -197,7 +203,7 @@ void excercise2()       // we will trun on the lights if the current time is aft
 int main()  // every c++ have at least 1 main fucntion this is where the codes gets read and executed.
 {
     
-       exercise5();
+       exercise3();
     
     
 

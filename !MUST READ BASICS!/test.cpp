@@ -26,12 +26,35 @@ void Sample1()
     //     return;
 
 
- ////  How string gets stored in an array
-    string Sarray = "creme";    //here the variable sarray is declared as string and assigned "creme" as the string of word now each letter is stored in memory locatio starting from index [0] as always
-                                //point your mouse on "creme" and its current assigne index is [6] and also declared as const char its because string is just a sries of char, letters and per char is 1 byte in memory which is 8 bits
-    cout << Sarray[2] <<"\n";   //here we extrated the "e" which is stored n index memory [2].
+ ///errors and debugger
 
+    //     int age = 23;               //here it will run fin because proper syntax        //red dot on the line is called breakpoint it will run the program at this point
+
+    //     if (age > 12 && age < 20)       //logical errors instead of &&  || is used so 17 is greater than 12 which is true and less than 20 use debugger for logical erros
+    //         cout << "you are teenager";
+    //     else
+    //     {
+    //         cout <<" you are not teenager";
+    //     }
+
+
+    //     //cout <<"cakes    //syntax error or grammar every programming language has different syntaxes here in C++ we are missing an double qute and semi colon in this statement.
+
+    //  /// Arithmetic error
+
+    //     int a = 1;
+    //     int b = 3.2;            // this will not produce accurate result because b is declared as an integer it only takes the whole number not the decimal .2 
+    //     int result = a + b;        // either u use float or double for more accurate results double are recommended
+    //     cout << result;  
+
+
+ /* Exception errors caused by a condition in the software where the program has reached a state where it can no longer run this will compile and run but will crash unexpectadly
  
+   there is many reason for expetional errors but you can mitigate the program crash by applying exception handling which is pretty complex in C++ */
+
+
+
+
 }
 
 
