@@ -8,6 +8,13 @@ using std::endl;
 using std::string;
 
 
+void sample2()
+{
+   
+
+
+
+}
 
 void Addition()
 {
@@ -60,7 +67,7 @@ void Sample1()
 
 int main()
 {
-    Sample1();
+    
     
 
     
