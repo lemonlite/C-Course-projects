@@ -1,7 +1,0 @@
-Programming, problem solving and breaking things down into smaller stapes. This will be don in iterations where you first have an overall solution
-and then break things down into smaller and smaller steps until you are on a level where you understand each step that needs to be taken.
-
-what do do you want,what would u like for your software to do? what problem it solve,automate,do?
-- Define the problem
-- the solution?
-- solution breakdown

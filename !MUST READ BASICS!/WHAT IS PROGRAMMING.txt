@@ -1,0 +1,14 @@
+Programming, problem solving and breaking things down into smaller stapes. This will be don in iterations where you first have an overall solution
+and then break things down into smaller and smaller steps until you are on a level where you understand each step that needs to be taken.
+
+what do do you want,what would u like for your software to do? what problem it solve,automate,do?
+- Define the problem
+- the solution?
+- solution breakdown
+The 3 basic programming constructs
+Sequence - the order in which instructions occur and are processed
+Selection - determines which path a program takes when its running (refer to flowcharts)
+Iteration - the repeated execution of a section of a code "block" when a program is running (loops)
+Defenite iteration - count -controlled iteration (for loops)
+Indefinite iteration - condition controlled iteration (while loops)
+make sure to have returns 
