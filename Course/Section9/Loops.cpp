@@ -12,6 +12,14 @@ using namespace std;
 
 
 
+void exercise2()
+{ 
+ //// While loop
+
+
+
+}
+
 
 void exercise1()
 {
