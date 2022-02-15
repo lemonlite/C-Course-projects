@@ -16,6 +16,13 @@ void exercise2()
 { 
  //// While loop
 
+    int i {1};
+
+    while (i <=5)
+    {
+      cout <<" i \n";
+      ++i; 
+    }
 
 
 }
@@ -111,7 +118,9 @@ void exercise1()
 
 int main()
 {
+   exercise2();
+
     
 
-    cout << endl;
+    return 0;
 }
