@@ -16,15 +16,79 @@ void exercise2()
 { 
  //// While loop
 
-    int i {1};
+    // int i {1};
 
-    while (i <=5)
-    {
-      cout <<" i \n";
-      ++i; 
-    }
+    // while (i <=5)
+    // {
+    //   cout <<" i \n";
+    //   ++i; 
+    // }
+
+ //// this will loop foerver until the right letter is entered
+
+    // char input = 'a';
+    // cout <<" please enter exactly a: ";
+    // cin >> input;
+    // while ( input != 'a')
+    // {
+    //   cout <<" try again ";
+    //   cin >> input;
+    // }
+    
+    //  cout <<" thank you";
+    
+ /// using bool
+
+   //  bool finish = false;
+   //  int number = 0;
+
+   //  while (!finish)
+   //  {
+   //  cout <<" enter an integer between 1 - 5 : ";
+   //  cin >> number;
+   //  }
+   //  if ( number <= 1 || number >=5 )
+   //  {
+   //    cout <<" out of range try again: ";
+   //    cin >> number;
+   //  }
+   //  else
+   //  {
+   //    cout <<" you have entered " << number;
+   //    finish = true; 
+   //  }
+
+ //// do while loop
+   // char select = ' ';
+
+   // do 
+   // {
+   //    int num1 = 0, num2 = 0;
+   //    cout <<" This is additio pls type the 2 number you want to add with space: ";
+   //    cin >> num1 >> num2;
+   //    int total = num1 + num2;
+   //    cout <<" \nTotal: " << total;
+
+   //    cout <<" \n Try again? y/n: ";
+   //    cin >> select;
+   // }
+   // while ( select == 'Y' || select == 'y');
+   
+   // cout <<" done \n";
 
 
+
+ //// nested loop   outer loop and inner loop you can draw in this 
+   for ( int num1 = 1; num1 <=10; ++num1)    //outer loop when inner loop is done it will loop back in the outer and then it repeats.
+      {
+         for (int num2 = 1; num2 <=10; ++num2) //inner loop       NOTE the outer loop is the main loop  and the inner is part of its block
+         {
+            cout << num1 <<" * " << num2
+                  << " = " << num1 * num2 <<"\n";
+         }
+         cout <<"\n==================================\n";
+      }
+      
 }
 
 
