@@ -182,8 +182,6 @@ void exercise1()
 
 int main()
 {
-   exercise2();
-
     
 
     return 0;
