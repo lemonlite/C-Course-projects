@@ -1,0 +1,12 @@
+Data type   size    Range
+int         2 or 4  -32768 to 32767
+float       5       -3.4x10*38 to 3.4x10*38
+double      8       -1.7x10*-308 to 1.7x10*308 **indices
+char        1       -128 to 127
+bool        undefined   true or false 1 and 0
+
+the sizes are in byte ex int is 4 bytes 4 x 8 = 32-bits 
+Bit - 1 or 0 true or false
+Nible - 4 bits
+Byte - 8 bits
+Kilobyte - 1,024 bytes

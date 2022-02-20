@@ -7,8 +7,8 @@ using namespace std;
 
 int main()
 {
-    float a = 2.1;
-    cout << a;
+        string name1 = " johnson ";
+        cout << name1[3,5];
 
 
     cout << endl;
