@@ -1,0 +1,6 @@
+Arithmetic : +,-,*,/,% - This are addition,subtraction,multiplication,division,modula this expressions are used in just like math note mod takes in dividents as decimal division is only integer
+Relational : <,>,<=,>=,== - This expressions are used for comparisons. less than,greater,less than or equal,greater than or equal, equal,
+Logical : &&,||,! - This is boolean ampersand or and means all statements need to be true, straight lines also called or exclamation point as not
+Bitwise: &,|,,^
+increment/decrement: ++, --
+Assignment: =  -usually used for assigning a value to a variable
