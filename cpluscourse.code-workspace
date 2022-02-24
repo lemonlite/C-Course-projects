@@ -12,7 +12,8 @@
 			"bitset": "cpp",
 			"string": "cpp",
 			"cmath": "cpp",
-			"charconv": "cpp"
+			"charconv": "cpp",
+			"cstdlib": "cpp"
 		}
 	}
 }
