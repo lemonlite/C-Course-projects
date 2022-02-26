@@ -5,7 +5,8 @@
 //here we are not using namespaces
 
 
-void BasicIO_Conditional()
+
+const int BasicIO_Conditional()
 {
     // std::string name; //std means standard and we are using string as part of the standard library located in iostream headers/library
     // int age;
@@ -53,8 +54,12 @@ void SimpleCalculator()
 
 int main()
 {
-    
 
+
+
+
+
+    system("pause>0");
     std::cout << std::endl; //this prints a new line and flushes the stream 
     return 0;
 }
