@@ -6,25 +6,13 @@
 
 
 
-const int BasicIO_Conditional()
+void Getname()
 {
-    // std::string name; //std means standard and we are using string as part of the standard library located in iostream headers/library
-    // int age;
-    // char verify = ' ';
-    
+    std::string name; //std means standard and we are using string as part of the standard library located in iostream headers/library
 
-    // std::cout <<" Enter you name: ";    
-    // getline(std::cin, name);                 //std::cin we are grouping them hence 2 colons the getline functions read through whitespaces     
-    // std::cout <<" Enter your age: ";
-    // std::cin >> age;
-    // std::cout <<" Hello " << name <<" would you like to use out calculator?(y/n): ";
-    // std::cin >> verify;
-    //     if ( verify == 'y' || verify == 'Y')
-    //     {
-    //         SimpleCalculator();     //if user inputs yes this will call the calculator function i would need to create a class
-    //     }
-    //     else
-    //         std:: cout <<" thank you come again./n";
+    std::cout <<" Enter you name: ";    
+    getline(std::cin, name);                 //std::cin we are grouping them hence 2 colons the getline functions read through whitespaces     
+    std::cout <<" Welcome " << name << "\n";      
 }
 
 void SimpleCalculator()
