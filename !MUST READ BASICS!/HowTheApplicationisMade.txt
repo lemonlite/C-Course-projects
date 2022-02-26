@@ -1,0 +1,7 @@
+1. you write the code the source file and use a header which is the .cpp and .h 
+2. Compiler generates an object file ".obj" out of those individual .cpp files
+3. Linker the linker will take those .obj files and combine them to one.
+4. product result is being an .exe file. "windows"
+
+
+NOTE: obj files are assembly code the closes code to machine.
