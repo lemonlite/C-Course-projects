@@ -6,8 +6,10 @@ Name
 Parameter list  "myfunction(this is a parameter)"
 - the variables passed into the function
 - thier types must be specified
+- this is optional 
 Return type
 - the type of the data that is returned from the function
+- void,int,bool and others
 Body {}
 - the statements that are exectuted when the funciton is called
 - in curly braces { STATEMENTS / EXPRESSIONS} 
