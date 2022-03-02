@@ -1,0 +1,13 @@
+Name
+- the name of the function
+- same rules as for variables
+- should be meaningful
+- usually a verb or verb phrase
+Parameter list  "myfunction(this is a parameter)"
+- the variables passed into the function
+- thier types must be specified
+Return type
+- the type of the data that is returned from the function
+Body {}
+- the statements that are exectuted when the funciton is called
+- in curly braces { STATEMENTS / EXPRESSIONS} 
