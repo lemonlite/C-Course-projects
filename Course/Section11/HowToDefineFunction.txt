@@ -13,3 +13,5 @@ Return type
 Body {}
 - the statements that are exectuted when the funciton is called
 - in curly braces { STATEMENTS / EXPRESSIONS} 
+HAS to be DECLARED before the main() function meaning above it any function defenition DECLARED
+below the main() will not be read and a compiler error will occur because its not read in the global scope

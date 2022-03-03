@@ -1,13 +1,26 @@
 #include <iostream>
-//Example area of circle and volume of a cylinder
+//FUNCTION prototypes
+double CalcVolCylinder(double radius, double height);
+double CalcAreaCircle(double);
+void AreaCircle();
+void VolumeCylinder();      //now it will compile and run THIS IS USUALLY JUST FOR SMALL PROTOYTING THIS FUNCITON  will most go to a header file so it can be used in multiple .cpp files
+
+const double pi = 3.14159;
 
 
-void Example1(/*argument*/)     //void is no return type i named it "Example1"
+int main()
 {
-    
+    AreaCircle();
+    VolumeCylinder();
+
+    std::cout << std::endl;
+    return 0;
 }
 
-const double pi {3.14159};
+
+
+//THIS WILL PRODUCE A NOT DECLARED in this scope compiler error 
+
 
 double CalcAreaCircle(double radius)  //here the function is declared as a double just like a variable and has an argument declared double named radius variable
 {
@@ -38,13 +51,4 @@ void VolumeCylinder()
     std::cout <<"\nEnter the height of the cylinder: ";
     std::cin >> height;
     std::cout <<"The volume of a cylinder with radius " << radius <<" and height " << height <<" is " << CalcVolCylinder(radius, height) <<"\n";
-}
-
-int main()
-{
-    AreaCircle();
-    VolumeCylinder();
-
-    std::cout << std::endl;
-    return 0;
 }
