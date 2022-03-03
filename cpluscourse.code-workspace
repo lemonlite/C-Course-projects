@@ -13,7 +13,9 @@
 			"string": "cpp",
 			"cmath": "cpp",
 			"charconv": "cpp",
-			"cstdlib": "cpp"
+			"cstdlib": "cpp",
+			"fstream": "cpp",
+			"iosfwd": "cpp"
 		}
 	}
 }

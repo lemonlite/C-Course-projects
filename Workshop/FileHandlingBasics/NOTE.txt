@@ -1,0 +1,2 @@
+the fstream will generate the files after the build and compilation
+launch the .exe file to generate the files 
