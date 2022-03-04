@@ -54,10 +54,9 @@ void example1()
 }
 
 
-
  int main()		//here you call the functions you made above and gets compiled and executed.
  {
-     
+	
      std::cout <<std::endl;
      return 0;
  }
