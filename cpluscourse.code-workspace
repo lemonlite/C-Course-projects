@@ -15,7 +15,8 @@
 			"charconv": "cpp",
 			"cstdlib": "cpp",
 			"fstream": "cpp",
-			"iosfwd": "cpp"
+			"iosfwd": "cpp",
+			"regex": "cpp"
 		}
 	}
 }

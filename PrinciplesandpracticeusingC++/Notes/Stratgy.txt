@@ -1,0 +1,6 @@
+-What is the problem to be solved?: try to be specific what your trying to accomplish lika simple program that sends a pakcet using asion or winsock library
+-Does the problem seem manageable given the time skills and tools?
+-Break the program into manageable parts. lower the scope of the problem into pieces and solve it.
+-Do you know of any tools,libraries etcc that might help, ding it from scratch will take a lot of time
+-Look for parts of a solution that can be separately described and potentially used in several places
+-Build small limited version of the program

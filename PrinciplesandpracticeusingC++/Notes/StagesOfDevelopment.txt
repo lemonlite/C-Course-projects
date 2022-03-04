@@ -1,0 +1,6 @@
+StagesOfDevelopment
+- Analysis:figure out what should be done and write a decription of your current unerstanding of that 
+such description is called a set of requirments or a specification
+-DESIGN: Create an overall structure for the system deciding which parts the implementation should have and how those parts
+should communicate as part of the desing consider which tools such as libraries "asio" can help structure the program
+-Implementation: write the code debug and test that it actually does what is is supposed to do.
